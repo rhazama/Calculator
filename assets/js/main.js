@@ -17,7 +17,7 @@ buttons.map((button) => {
 
       case "←":
         if (display.innerText) {
-          display.innerText = display.innnerText.slice(0, -1);
+          display.innerText = display.innerText.slice(0, -1);
         }
         break;
 

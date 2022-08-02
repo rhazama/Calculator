@@ -7,6 +7,20 @@ buttons.map((button) => {
       case "C":
         display.innerText = "";
         break;
+      case "=":
+        try {
+          display.innerText = eval(display.innerText);
+        } catch {
+          display.innerText = "ERROR";
+        }
+        break;
+
+      case "←":
+        if (display.innerText) {
+          display.innerText = display.innnerText.slice(0, -1);
+        }
+        break;
+
       default:
         display.innerText += e.target.innerText;
     }

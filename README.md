@@ -1,4 +1,4 @@
-<h1 align="center">Calculator</h1>
+<h1 align="center">:iphone: Calculator :iphone:</h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
